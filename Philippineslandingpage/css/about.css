@@ -1,0 +1,163 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+/* 
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #000;
+} */
+
+body{
+    background: #f9f9f3;
+}
+
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 6%;
+    
+    }
+    
+    nav h1{
+    font-size: 30px;
+    color: #000;
+    font-weight: 600;
+    font-style: bold;
+    }
+    
+    nav #p{
+        color: blue;
+    }
+    
+    nav #h{
+        color: red;
+    }
+    
+    .logo{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    
+    
+    
+    #sideNav{
+        width: 250px;
+        height: 100vh;
+        position: fixed;
+        right: -250px;
+        top: 0;
+        background: #000;
+        z-index: 2;
+        transition: 0.6s;
+    }
+    
+    nav ul li{
+        list-style: none;
+        margin: 50px 20px;
+    
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
+    nav a:hover{
+        color: #F2AA4CFF;
+        transition: 0.5s;
+    }
+    
+    #menuBtn{
+        width:50px;
+        height:50px;
+        background: #000;
+        text-align: center;
+        position: fixed;
+        right: 30px;
+        top: 20px;
+        border-radius: 3px;
+        z-index: 3;
+        cursor: pointer;
+    }
+    
+    #menuBtn img{
+    width: 20px;
+    margin-top: 15px;
+    }
+
+    body{
+        background: #f9f9f3
+    }
+
+.mainContainer{
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+
+.aboutContainer{
+    padding: 120px 15% 0 15%;
+    color: red;
+}
+.aboutImage{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+
+.aboutContent{
+    position: relative;
+    margin: auto;
+    text-align: center;
+    max-width: 900px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.aboutContent h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.aboutContent p{
+    line-height: 30px;
+    
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .aboutContent h1{
+        font-size: 50px;
+    }
+
+    .aboutContent p{
+        font-size: 15px;
+    }
+    
+}
+
+
+.cp-right{
+    font-size: 13px;
+    color: gray;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-style: italic;
+    text-align: center;
+}
