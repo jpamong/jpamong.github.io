@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALLERY</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/reloadanimtion.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <section class="hero">
+        <nav>
+            <h1><span id="p">P</span><span id="h">H</span>ILIPPINES</h1>
+        </nav>
+        <div class="img-gallery">
+            <img src="Images/pexels-bongvideos-production-2524366.jpg" onclick="openFullImg(this.src)">
+            <img src="Images/pexels-denniz-futalan-6716735.jpg" onclick="openFullImg(this.src)">
+            <!-- <img src="../Images/pexels-gerald-yambao-2413238.jpg"> -->
+            <img src="Images/pexels-joshua-austria-13084866.jpg" onclick="openFullImg(this.src)">
+            <img src="Images/pexels-june-famur-jr-2663108.jpg" onclick="openFullImg(this.src)">
+            <img src="Images/pexels-kobe-1714456.jpg" onclick="openFullImg(this.src)">
+            <img src="Images/pexels-nice-guys-757444.jpg" onclick="openFullImg(this.src)">
+            <img src="Images/pexels-palu-malerba-2516406.jpg" onclick="openFullImg(this.src)">
+            <img src="Images/pexels-syrix-remanes-12416435.jpg" onclick="openFullImg(this.src)">
+        </div>
+
+        <div class="full-img" id="fullImgBox">
+            <img src="Images/pexels-palu-malerba-2516406.jpg" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+        </div>
+    </section>
+
+    <!-- SIDE NAVBAR-->
+        <div id ="sideNav">
+            <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+        </div>
+
+        <div id="menuBtn">
+            <img src="Images/menu.png" id="menu">
+        </div>
+        <!-- END SIDENAVBAR -->
+
+        <p class="cp-right">&copy;2022 JPAUL</p>  
+</body>
+</html>
