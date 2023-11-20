@@ -20,3 +20,12 @@ skillsBtn.addEventListener("click", (event) => {
   skillsBtn.classList.add("active-btn");
 });
 
+
+// LOADER
+const loader = document.getElementById("preloader");
+
+window.addEventListener("load", function(){
+  loader.style.display = "none";
+
+});
+
